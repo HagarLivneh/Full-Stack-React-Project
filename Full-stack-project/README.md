@@ -24,6 +24,7 @@ Main component:
 
 
 Users components:
+
 3. RegisterPage:
     Register user with: username, password, location and photo.
     username - must be uniq, having verification onBlur.
@@ -56,6 +57,7 @@ Users components:
     then updates App relevant users and restaurants.
 
 Restaurants components:
+
 7. Restaurants, includes:
     a. List of all the restaurants that were reviewed in the app, sorted by the user query,
         chosen by search properties.
@@ -88,6 +90,7 @@ Restaurants components:
         j. Picture - editable.
 
 Submit new Review flow:
+
     1. Check if the user connected, if it is, the user allowed to add new review.
     2. The user fill in all the review properties he wants.
         For each input the user change, onChange event sends to the "updateFieldEventHandler",
@@ -113,11 +116,13 @@ Submit new Review flow:
 
 
 Features implemented:
+
     All the application core features mentioned at the assignment file have been implemented
     using Semantic-ui-react and Prime-react libraries.
     User connection sessions implemented by using cookies allowing login/ logout from the App.
 
 Mongoose Models:
+
     1. CitiesModel - cities: [{
                             city: String,
                             x: Number,
@@ -150,6 +155,7 @@ Mongoose Models:
                       avgRate: Number,
 
 Extra libraries:
+
     Semantic-ui React.
     PrimeReact.
     React-router-dom - for Router.
