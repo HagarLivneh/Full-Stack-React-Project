@@ -1,6 +1,7 @@
 # ATD-Project
 
 Hagar Livneh
+
 Timor Bibi
 
 
@@ -8,6 +9,7 @@ Design:
     There are 9 types of components in our implementation:
 
 Main component:
+
 1.App:
      a. Users and Restaurants arrays with the relevant properties
          fetched from the server with each change made on the server.
@@ -18,7 +20,7 @@ Main component:
 
 2.TopBar:
     The app menu, linked to BrowserRouter components at the App component
-    and handel the navigation of the app.
+    and handles the navigation of the app.
 
 
 Users components:
